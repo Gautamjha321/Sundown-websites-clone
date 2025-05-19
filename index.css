@@ -356,20 +356,36 @@
 
         #full-scr {
             height: 100vh;
-            width: 100%;
-            background-color: rgba(0, 0, 0, 0.514);
+            width: 100vw;
+            background-color: #efeae3;
             position: fixed;
             z-index: 99;
             top: -100%;
-            transition: all ease 0.4s;
+            left: 0;
+            transition: all 0.5s cubic-bezier(0.16, 1, 0.3, 1);
+            display: flex;
+            align-items: center;
+            justify-content: center;
         }
 
         #full-div1 {
-            height: 50%;
-            width: 100%;
-            background-color: #efeae3;
-            border-bottom-left-radius: 20px;
-            border-bottom-right-radius: 20px;
+            width: 80%;
+            max-width: 800px;
+            text-align: center;
+        }
+
+        #full-div1 a {
+            display: block;
+            font-size: 3.5vw;
+            font-weight: 500;
+            color: #000;
+            text-decoration: none;
+            padding: 20px;
+            transition: color 0.3s ease;
+        }
+
+        #full-div1 a:hover {
+            color: #fe330a;
         }
 
         /* Page 4 Styles */
@@ -658,6 +674,11 @@
             
             #loader h1 {
                 font-size: 6vw;
+            }
+            
+            #full-div1 a {
+                font-size: 6vw;
+                padding: 15px;
             }
         }
 
