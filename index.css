@@ -708,6 +708,9 @@
             .swiper-slide {
                 width: 90%;
             }
+            .swiper-slide p{
+              line-height: 20px;
+            }
             
             #footer h1 {
                 font-size: 17vw;
