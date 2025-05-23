@@ -26,10 +26,10 @@ From elegant layouts to subtle animations, every detail has been carefully craft
 
 ## 📸 Screenshots
 
-![Preview 1](./assets/screenshot1.png)  
+![Preview 1](image1.png)  
 *Homepage view on desktop*
 
-![Preview 2](./assets/screenshot2.png)  
+![Preview 2](image.png)  
 *Responsive view on mobile*
 
 ---
@@ -70,7 +70,7 @@ Frontend Developer | B.Tech in ECE | Passionate about clean UI/UX
 ### 1. Clone this repository
 
 ```bash
-git clone https://github.com/your-username/modern-frontend-website.git
+git clone https://github.com/Gautamjha321/modern-frontend-website.git
 
 📄 License
 This project is for educational and personal use only.
